@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: cursive;
+}
+.navbar{
+    background-color: #007bff!important;
+    opacity: 0.7;
+    border-bottom: 2px solid#f5f5f5;
+}
+.navbar-brand {
+    color:#ffffff !important;
+}
+
+.bg-dark {
+
+}
+ul li a{
+    color:#292424!important;
+}
+ul li a:hover{
+    color: #ffffff !important;
+    background-color: rgb(71 72 71 / 21%) !important;
+}
+.search-bar{
+    color: #e6e6e6;
+}
+.search-btn{
+
+color: #383333;
+}
+#Home_section{
+    background-image: url(../img/pexels-stephan-seeber-1054289.jpg);
+    min-height:670px ;
+    background-size:cover ;
+    background-attachment: fixed;
+    color: blanchedalmond;
+}
+#Home_section .dark-overly{
+    background:#000000a6 ;
+    min-height: 670px;
+}
+#Home_section .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#Home_section .fas{
+    background: blanchedalmond;
+    color: #376f00;
+    padding: 4px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius:5px;
+}
+#explore-head .explore-head1{
+    text-align: center;
+}
+#Home_section hr{
+    border: 1px solid#007bff;
+}
+#explore-body img {
+    width: 100%;
+    text-align: center;
+    border-radius: 41%;
+}
+#explore-body .fas{
+    background: rgb(32, 28, 21);
+    color: #fbfbfb;
+    padding: 4px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius:5px;
+}
+#service-body img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+#service-body .fas{
+    background: blanchedalmond;
+    color: #376f00;
+    padding: 4px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius:5px;
+}
+.card-body{
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+.card-body img{
+    border-radius: 50%;
+    width: 100%;
+}
+.card-body:hover{
+    color:#ec981a;
+}
